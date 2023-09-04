@@ -90,8 +90,6 @@ menu            Chinese special features menu
 
 ## License
 
-[MIT](https://github.com/P3TERX/warp.sh/blob/main/LICENSE) © **[P3TERX](https://p3terx.com/)**
-
 ## Notice of Non-Affiliation and Disclaimer
 
 We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Cloudflare, or any of its subsidiaries or its affiliates. The official Cloudflare website can be found at https://www.cloudflare.com/.
