@@ -38,9 +38,6 @@ Supported platform architecture:
 ## Usage
 
 ```bash
-bash <(curl -fsSL git.io/warp.sh) [SUBCOMMAND]
-# or
-wget git.io/warp.sh
 bash warp.sh [SUBCOMMAND]
 ```
 
@@ -69,17 +66,17 @@ menu            Chinese special features menu
 
 - Install and automatically configure the Proxy Mode feature of the WARP client, enable the local loopback port 40000, and use an application that supports SOCKS5 to connect to this port.
     ```
-    bash <(curl -fsSL git.io/warp.sh) proxy
+    bas warp.sh proxy
     ```
 
 - Install and automatically configure WARP IPv6 Network (with WireGuard)，Giving your Linux server access to IPv6 networks.
     ```
-    bash <(curl -fsSL git.io/warp.sh) wg6
+    bash warp.sh wg6
     ```
 
 - This Bash script is also a good WireGuard installer.
     ```
-    bash <(curl -fsSL git.io/warp.sh) wg
+    bash warp.sh wg
     ```
 
 ## Credits
