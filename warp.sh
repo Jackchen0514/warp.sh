@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
 #
-# https://github.com/P3TERX/warp.sh
 # Description: Cloudflare WARP Installer
 # System Required: Debian, Ubuntu, Fedora, CentOS, Oracle Linux, Arch Linux
 # Version: beta39
 #
 # MIT License
-#
-# Copyright (c) 2021-2022 P3TERX <https://p3terx.com>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -304,7 +301,7 @@ Print_Delimiter() {
 }
 
 Install_wgcf() {
-    curl -fsSL git.io/wgcf.sh | bash
+    curl -fsSL https://raw.githubusercontent.com/Jackchen0514/warp.sh/main/wgcf.sh | bash
 }
 
 Uninstall_wgcf() {
@@ -985,7 +982,7 @@ Set_WARP_DualStack_nonGlobal() {
     Print_WARP_WireGuard_Status
 }
 
-Menu_Title="${FontColor_Yellow_Bold}Cloudflare WARP 一键安装脚本${FontColor_Suffix} ${FontColor_Red}[${shVersion}]${FontColor_Suffix} by ${FontColor_Purple_Bold}P3TERX.COM${FontColor_Suffix}"
+Menu_Title="${FontColor_Yellow_Bold}Cloudflare WARP 一键安装脚本${FontColor_Suffix} ${FontColor_Red}[${shVersion}]${FontColor_Suffix} by ${FontColor_Purple_Bold}xinsi.us${FontColor_Suffix}"
 
 Menu_WARP_Client() {
     clear

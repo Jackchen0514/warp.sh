@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2020-2021 P3TERX <https://p3terx.com>
-#
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-# https://github.com/P3TERX/script
 # File name: wgcf.sh
 # Description: Install latest version wgcf
 # System Required: GNU/Linux
